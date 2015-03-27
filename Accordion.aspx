@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeFile="Accordion.aspx.cs" Inherits="Accordion" %>
+    CodeFile="Accordion.aspx.cs" Trace="true" Inherits="Accordion" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="Server">
     <style type="text/css">
@@ -39,4 +39,8 @@
         <li>test</li>
         <li>test</li>
     </ul>
+
+    <asp:Button ID="btn" runat="server" Text="Test" OnClick="Test_Click" />
+    <asp:Button ID="Button1" runat="server" Text="Test123" OnClick="Test123_Click" />
+    <a href="Default.aspx">Session Check</a>
 </asp:Content>
